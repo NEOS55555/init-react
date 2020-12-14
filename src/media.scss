@@ -1,0 +1,15 @@
+@media screen and (max-width: 1000px) {
+	body {
+		.ant-btn-link {
+			padding: 4px 10px;
+		}
+	}
+}
+
+@media screen and (max-width: 320px) {
+	body {
+		.ant-btn-link{
+	    padding: 4px 6px;
+		}
+	}
+}
