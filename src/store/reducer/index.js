@@ -3,7 +3,7 @@ import { combineReducers, createStore, applyMiddleware } from 'redux';
 // import siteMng from './siteMng'
 import com from './com'
 import thunkMiddleware from 'redux-thunk'
-import createSagaMiddleware from 'redux-saga';
+// import createSagaMiddleware from 'redux-saga';
 // import { ConnectedRouter, routerReducer, routerMiddleware } from 'react-router-redux';
 
 // const isDevelopment = process.env.NODE_ENV === 'development';

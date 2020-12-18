@@ -9,12 +9,8 @@ import './media.scss';
 
 
 export default class App extends Component {
-	state = {
-		isShow: false
-	}
 
 	render () {
-		const { isShow } = this.state;
 	  return (
 	  	<div>App</div>
 	  );

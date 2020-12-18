@@ -7,7 +7,7 @@ import { message } from 'antd';
 
 axios.interceptors.request.use(
   config => {
-    loading.transShow();
+    // loading.transShow();
     return config
   },
   err => {
@@ -28,7 +28,7 @@ axios.interceptors.response.use(function (response) {
       // removeLoginCookie()
       eventBus.emit('logout#clear', data)
     } */
-    loading.close()
+    // loading.close()
     return Promise.reject(data);
   }
   return data;
